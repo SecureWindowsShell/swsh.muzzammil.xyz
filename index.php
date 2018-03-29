@@ -21,7 +21,7 @@
  *   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  *   SOFTWARE.
 -->
-<?php $version = "Beta 3.0"; ?>
+<?php $version = "Titan (1.0)"; ?>
 <!DOCTYPE html>
 <html>
 
