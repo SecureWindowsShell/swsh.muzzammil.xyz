@@ -51,7 +51,7 @@ $(document).ready(function () {
         $(".about-window, .close").delay(1000).slideDown(1000, "linear")
     })
     $("#btn-dl").click(function () {
-        window.open("//github.com/SecureWindowsShell/SWSH/releases/download/beta-3.0/SWSH.Installer.msi", '_blank')
+        window.open("//github.com/SecureWindowsShell/SWSH/releases/download/Titan-1.0/SWSH.Installer.msi", '_blank')
         $("#thanks").slideDown(1000)
     })
     $(".close").click(function () {
