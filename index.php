@@ -21,6 +21,7 @@
  *   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  *   SOFTWARE.
 -->
+<?php $version = "Beta 3.0"; ?>
 <!DOCTYPE html>
 <html>
 
@@ -40,7 +41,7 @@
         <div class="download-window">
             <span class="anchor close">X</span>
             <h1>Download SWSH</h1>
-            <span class="button green" id="btn-dl">Download latest version of SWSH (Beta 3.0)</span>
+            <span class="button green" id="btn-dl">Download latest version of SWSH (<?php echo $version; ?>)</span>
             <div id="thanks">
                 <span id="dl-notice">Thank you for downloading, would you like to contribute to the project?</span>
                 <span class="anchor paypal">PayPal</span>,
@@ -131,7 +132,7 @@
                                         <li>Windows 10 1607+ (x86 and x64)</li>
                                     </ul>
                                 </div>
-                                <span class="button green dl-swsh">Download SWSH Beta 3.0 </span>
+                                <span class="button green dl-swsh">Download SWSH <?php echo $version; ?> </span>
                             </div>
                         </div>
                     </td>
