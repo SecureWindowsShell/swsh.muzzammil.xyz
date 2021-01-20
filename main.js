@@ -113,13 +113,13 @@ $(document).ready(function () {
         window.open("//www.paypal.me/happyNinja1998", '_blank')
     })
     $(".bitcoin").click(function () {
-        $(".addr").attr("value", "BTC: 14bqRd5WqdppJe2jwe85Z9s5yBwHoupcze")
+        $(".addr").attr("value", "BTC: 34pXdN3WbsXDwXAir2M3kqkLw5NQh3rcXg")
     })
     $(".litecoin").click(function () {
-        $(".addr").attr("value", "LTC: LfFSUb5pWCfkkCMN8PNH1xqj7x8QM9eP1a")
+        $(".addr").attr("value", "LTC: MRN76bBPQ4gBbLGyjQYUfMzfSvT5aeg3T7")
     })
     $(".ethereum").click(function () {
-        $(".addr").attr("value", "ETH: 0xDf268D39A2969c6690dA5E90af1179940a7c3E51")
+        $(".addr").attr("value", "ETH: 0x7a43f722cd577db06914b796bf43d2996df3b4c5")
     })
     $(window).scroll(function () {
         if (($(this).scrollTop() > parseInt($("#dl-content").offset().top)) && !rt) {
