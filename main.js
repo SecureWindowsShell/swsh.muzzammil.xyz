@@ -113,7 +113,7 @@ $(document).ready(function () {
         window.open("//www.paypal.me/happyNinja1998", '_blank')
     })
     $(".bitcoin").click(function () {
-        $(".addr").attr("value", "BTC: 34pXdN3WbsXDwXAir2M3kqkLw5NQh3rcXg")
+        $(".addr").attr("value", "BTC: 1G7XxjTNQJaLL56E87JQJn9w9A4iqHLfsB")
     })
     $(".litecoin").click(function () {
         $(".addr").attr("value", "LTC: MRN76bBPQ4gBbLGyjQYUfMzfSvT5aeg3T7")
